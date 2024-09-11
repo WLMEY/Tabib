@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Mingzat&display=swap');
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+width: 100vw;
+display: flex;
+flex-direction: column;
+
+font-family: "Mingzat", sans-serif;
+}
+.nav_bar{
+    width: 100vw;
+    height:7vh;
+    padding:0 3vw;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+}
+.title span{ 
+color: #56C8B3;
+}
