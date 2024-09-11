@@ -20,14 +20,70 @@ font-family: "Mingzat", sans-serif;
 .nav_bar{
     width: 100vw;
     height:7vh;
-    padding:0 3vw;
-    background-color: red;
+    padding:0 5vw;
+    background-color: rgb(218, 184, 184);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     /* position: fixed; */
+    color: grey;
+}
+.title{
+    color: black;
 }
 .title span{ 
 color: #56C8B3;
+}
+.titles{
+    
+    width: 50vw;
+    /* background-color: gray; */
+    display: flex;
+    justify-content: space-around;
+}
+.titles span{
+    font-size: 20px;
+}
+
+.titles button:hover{
+    cursor: pointer;
+    background-color:#3f9686;
+}
+.titles span:hover{
+    cursor: pointer;
+    color: rgb(88, 88, 88);
+}
+.titles .Download{
+    width: 8vw;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    background-color: #56C8B3;
+    font-size: 22px;
+
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    /* background-color: blue; */
+    position: relative;
+    display: flex;
+    /* z-index: 1; */
+    overflow: hidden;
+    border: 3px solid #56C8B3;
+}
+.circle2{
+    transform: rotate(35deg);
+    width: 20px;
+    height: 20px;
+    border-radius:50%;
+    /* content:''; */
+    position: absolute;
+    top:-3px;
+    right:-3px;
+    background-color:#56C8B3;
+    z-index:2;
+
 }
