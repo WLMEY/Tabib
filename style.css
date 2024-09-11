@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Mingzat&display=swap');
 
-
+.mingzat-regular {
+    font-family: "Mingzat", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
 
 
 
@@ -15,7 +20,7 @@ width: 100vw;
 display: flex;
 flex-direction: column;
 
-font-family: "Mingzat", sans-serif;
+font-family: "Mingzat";
 }
 .nav_bar{
     width: 100vw;
@@ -26,7 +31,7 @@ font-family: "Mingzat", sans-serif;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /* position: fixed; */
+    position: fixed;
     color: grey;
 }
 .title{
@@ -54,7 +59,7 @@ color: #56C8B3;
     cursor: pointer;
     color: rgb(88, 88, 88);
 }
-.titles .Download{
+.Download{
     width: 8vw;
     border: none;
     border-radius: 7px;
@@ -86,4 +91,45 @@ color: #56C8B3;
     background-color:#56C8B3;
     z-index:2;
 
+}
+
+
+
+/* Home */
+.Home{
+    margin-left: 5vw;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+    margin-top: 5vh;
+}
+.Home .left h1,.Home .left h1 span{
+    font-size:30px;
+    font-weight:bolder;
+}
+.Home .left p{
+    font-size: 15px;
+}
+.Home .left h1 span{
+    color: #56C8B3;
+}
+.btn_home button{
+ width: 12vw;
+ height: 5vh;
+ border: none;
+ font-size: 20px;
+ margin: 5vh 0.5vw;
+ border-radius: 10px;
+ transition: all 0.5s ;
+}
+.btn_home .btn_inverse{
+    border: 4px solid #56C8B3;
+    color: #56C8B3;
+}
+.btn_home button:hover{
+    cursor: pointer;
+    background-color: #3f9686;
+    color: white;
+    border-color: #3f9686;
 }
