@@ -549,7 +549,7 @@ align-self:flex-end;
     z-index: auto;
 }
 
-.FAQ_s{
+.Download_P{
     width: 100vw;
     height: 100vh;
     padding: 0 10vw;
@@ -570,6 +570,9 @@ background-color:rgba(43, 92, 83,0.9);
 height: 100%;
 width: 100%;
 border-radius: 15px;
+display: flex;
+flex-direction: row;
+
 
 }
 
@@ -626,6 +629,14 @@ padding: 5px;
 font-size: 10px;
 
 }
-/* .text h1{
-    font-size: 14px;
-} */
+.right_BGI{
+    position: relative;
+    width: 50%;
+    /* background-color: rebeccapurple; */
+}
+.right_BGI img{
+    width: 600px;
+    position: absolute;
+    top: -40px;
+    right: 80px;
+}
