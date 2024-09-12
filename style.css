@@ -63,7 +63,7 @@ body {
 .titles a {
     font-size: 20px;
     text-decoration: none;
-    color: #333333;
+    color: #999999;
 }
 
 .titles button:hover {
@@ -74,18 +74,23 @@ body {
 .titles span:hover,
 .titles a:hover {
     cursor: pointer;
-    color: rgb(88, 88, 88);
+    color: rgb(68, 68, 68);
 }
 
-.Download {
+.Download a{
     width: 8vw;
     border: none;
     border-radius: 7px;
     color: white;
     background-color: #56C8B3;
+    padding: 0 1vw;
     font-size: 22px;
-
 }
+.Download a:hover{
+    color: white;
+    background-color: #3f9686;
+}
+
 
 .circle {
     width: 40px;
