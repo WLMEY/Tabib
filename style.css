@@ -447,26 +447,30 @@ left: 30vw;
     justify-content: center;
     align-items: center;
     background-color: #f1f0f0;
-    gap:20px;
+    gap: 20px;
 
 }
-.continer_T{
+
+.continer_T {
     width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 20px;
-    
+
 
 }
-.arrows{
-display: flex;
-flex-direction: row;
-gap: 15px;
-align-self:flex-end;
+
+.arrows {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-self: flex-end;
 }
-.left_R,.right_R{
+
+.left_R,
+.right_R {
     width: 50px;
     height: 50px;
     background-color: #56C8B3;
@@ -478,7 +482,8 @@ align-self:flex-end;
     font-size: 20px;
     color: white;
 }
-.Reverse{
+
+.Reverse {
     width: 50px;
     height: 50px;
     background-color: white;
@@ -490,7 +495,8 @@ align-self:flex-end;
     font-size: 20px;
     color: #56C8B3;
 }
-.comments{
+
+.comments {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -499,7 +505,8 @@ align-self:flex-end;
     /* background-color: rebeccapurple; */
     width: 100%;
 }
-.comments .comment{
+
+.comments .comment {
     /* background-color: rgb(180, 177, 177); */
     background-color: white;
     width: 300px;
@@ -514,19 +521,21 @@ align-self:flex-end;
     text-align: center;
 }
 
-.comments .comment i{
+.comments .comment i {
     color: #3f9686;
     font-size: 30px;
     align-self: self-start;
     /* justify-self: ; */
     padding: 20px;
 }
-.comments .comment p{
+
+.comments .comment p {
     color: #999999;
     font-size: 14px;
     /* align-items: flex-start; */
 }
-.comments .comment img{
+
+.comments .comment img {
     border: 2px solid white;
     border-radius: 50%;
     background-color: rebeccapurple;
@@ -536,7 +545,8 @@ align-self:flex-end;
     top: 68%;
     z-index: 2;
 }
-.comments .comment h4{
+
+.comments .comment h4 {
     color: white;
     background-color: #56C8B3;
     width: 100%;
@@ -549,7 +559,7 @@ align-self:flex-end;
     z-index: auto;
 }
 
-.Download_P{
+.Download_P {
     width: 100vw;
     height: 100vh;
     padding: 0 10vw;
@@ -558,25 +568,27 @@ align-self:flex-end;
     align-items: center;
 
 }
-.div1{
+
+.div1 {
     height: 50%;
     width: 100%;
-    background-image: url("./Materials/istockphoto-1403848173-612x612.jpg") ;
+    background-image: url("./Materials/istockphoto-1403848173-612x612.jpg");
     border-radius: 15px;
 
 }
-.backgroundimg{
-background-color:rgba(43, 92, 83,0.9);
-height: 100%;
-width: 100%;
-border-radius: 15px;
-display: flex;
-flex-direction: row;
+
+.backgroundimg {
+    background-color: rgba(43, 92, 83, 0.9);
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
 
 
 }
 
-.left_BGI{
+.left_BGI {
     display: flex;
     justify-content: center;
     align-items: start;
@@ -587,56 +599,220 @@ flex-direction: row;
     padding-left: 5vw;
     gap: 20px;
 }
-.left_BGI h1{
+
+.left_BGI h1 {
     font-size: 32px;
 }
-.left_BGI p{
+
+.left_BGI p {
     font-size: 14px;
     line-height: 1.5;
 }
-.stors{
-width: 100%;
-/* background-color: rebeccapurple; */
-display: flex;
-flex-direction: row;
-gap: 10px;
+
+.stors {
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
-.appel_store ,
-.google_play{
-border-radius: 5px;
-background-color: #333333;
-width: calc((50%/2));
-display: flex;
-flex-direction:row;
-gap: 10px;
-justify-content: center;
-align-items: center;
-padding: 5px;
+
+.appel_store,
+.google_play {
+    border-radius: 5px;
+    background-color: #333333;
+    width: calc((50%/2));
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
 }
-.appel_store i{
+
+.appel_store i {
     font-size: 25px;
 }
-.google_play img{
+
+.google_play img {
     width: 25px;
     height: 25px;
 }
-.text{
+
+.text {
     display: flex;
     flex-direction: column;
     line-height: 1;
 }
-.text p{
-font-size: 10px;
+
+.text p {
+    font-size: 10px;
 
 }
-.right_BGI{
+
+.right_BGI {
     position: relative;
     width: 50%;
     /* background-color: rebeccapurple; */
 }
-.right_BGI img{
+
+.right_BGI img {
     width: 600px;
     position: absolute;
     top: -40px;
     right: 80px;
+}
+
+
+/* FAQ's */
+
+
+.FAQ_s {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f0f0;
+    gap: 50px;
+    color: #999999;
+}
+
+.continer_FAQ {
+    width: 60%;
+    max-height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.continer_small {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-radius: 10px;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+}
+
+.continer_large {
+    padding: 20px 20px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+}
+
+.Reverse_FAQ {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-radius: 10px;
+    align-items: center;
+    width: 100%;
+    background-color: #56C8B3;
+    color: white;
+}
+
+
+
+/* end */
+
+
+.end {
+    height: 50vh;
+    width: 100vw;
+    background-image: url("./Materials/end.jpg");
+    background-size: cover;
+    border-radius: 15px;
+    color: #999999;
+    line-height: 3;
+
+}
+.cursor{
+    cursor:pointer;
+}
+
+.change_text_size {
+    font-size: 22px;
+    color: white;
+}
+
+.end .backgroundimg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.up {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: self-start;
+    width: 50%;
+    height: 70%;
+    list-style-type: none;
+
+
+}
+
+.logo {
+    align-self: center;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.logo i {
+    font-size: 70px;
+    color: white;
+    cursor: pointer;
+}
+
+.T_abib {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+
+
+}
+
+.T_abib span {
+    font-size: 35px;
+    font-weight: 700;
+
+
+}
+
+.Social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    gap: 10px;
+}
+
+.Social i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #3f9686;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
 }
