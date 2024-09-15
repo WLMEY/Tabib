@@ -683,6 +683,13 @@ left: 30vw;
     gap: 50px;
     color: #999999;
 }
+.item{
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    gap: 10px;
+    
+}
 
 .continer_FAQ {
     width: 60%;

@@ -47,7 +47,21 @@
 
 const items=document.querySelectorAll("item")
 items.forEach(item => {
-    // const question=item.querySelector(".")
+    const question = item.querySelector('.question');
     const answer = item.querySelector('.answer');
     const icon = item.querySelector('.icon');
+
+    question.addEventListener('click',()=>{
+        items.forEach(otherItem=>{
+            const otherAnswer=otherItem.querySelector('.answer')
+            const otherIcon=otherItem.querySelector('.icon');
+            if(otherAnswer!=answer){
+                otherAnswer.classList.remove('open')
+                otherIcon.classList.remove('rotate');
+
+            }
+        });
+        answer.classList.toggle('open');
+        icon.classList.toggle('rotate');
+    })
 });
