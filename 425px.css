@@ -10,55 +10,58 @@
         padding: 0;
         box-sizing: border-box;
     }
-    :root{
-        --body1-color:white;
-        --body2-color:#f1f0f0;
-        --iconsandtitles-color:#56C8B3;
-        --hover-color:#3f9686;
-        --hoverlinks-color:rgb(68, 68, 68);
-        --text-color:#999999;
-        --backgroundimg-colo:rgba(43, 92, 83, 0.9);
-        --fixed-color:#56C8B3;
+
+    :root {
+        --body1-color: white;
+        --body2-color: #f1f0f0;
+        --iconsandtitles-color: #56C8B3;
+        --hover-color: #3f9686;
+        --hoverlinks-color: rgb(68, 68, 68);
+        --text-color: #999999;
+        --backgroundimg-colo: rgba(43, 92, 83, 0.9);
+        --fixed-color: #56C8B3;
         /* --background1-color:#4D4D4D; */
-        --icon-bgc:#3f9686;
-        --icon-color:white;
-        --samll:#56C8B3;
-        --name:#56C8B3;
+        --icon-bgc: #3f9686;
+        --icon-color: white;
+        --samll: #56C8B3;
+        --name: #56C8B3;
         --circal: #56C8B3;
-        --T:#56C8B3;
-        --reight_continer:#56C8B3;
-        --btn:#56C8B3;
-        --text:black;
-        --text2:#ada4a4;
-    
-    
+        --T: #56C8B3;
+        --reight_continer: #56C8B3;
+        --btn: #56C8B3;
+        --text: black;
+        --text2: #ada4a4;
+
+
     }
-    .NightMOde{
-        --body1-color:#272727;
-        --body2-color:#333333;
-        --iconsandtitles-color:#FFFFFF;
-        --hover-color:#3f9686;
-        --hoverlinks-color:rgb(151, 151, 151);
-        --text-color:#999999;
-        --backgroundimg-colo:rgba(20, 20, 20, 0.9);
-        --background1-color:#4D4D4D;
-        --fixed-color:#56C8B3;
-        --icon-bgc:#4D4D4D;
-        --icon-color:white;
-        --samll:#4D4D4D;
-        --name:#4D4D4D;
+
+    .NightMOde {
+        --body1-color: #272727;
+        --body2-color: #333333;
+        --iconsandtitles-color: #FFFFFF;
+        --hover-color: #3f9686;
+        --hoverlinks-color: rgb(151, 151, 151);
+        --text-color: #999999;
+        --backgroundimg-colo: rgba(20, 20, 20, 0.9);
+        --background1-color: #4D4D4D;
+        --fixed-color: #56C8B3;
+        --icon-bgc: #4D4D4D;
+        --icon-color: white;
+        --samll: #4D4D4D;
+        --name: #4D4D4D;
         --circal: black;
-        --T:#56C8B3;
-        --reight_continer:white;
-        --btn:black;
-        --text:white;
-        --text2:#ada4a4;
+        --T: #56C8B3;
+        --reight_continer: white;
+        --btn: black;
+        --text: white;
+        --text2: #ada4a4;
     }
 
 
-    html{
-    width: 100%;
-}
+    html {
+        width: 100%;
+    }
+
     body {
         min-width: 190vw;
     }
@@ -96,8 +99,9 @@
 
 
     }
+
     .left {
-        min-width:100%;
+        min-width: 100%;
         padding: 5vw;
         display: flex;
         flex-direction: column;
@@ -106,6 +110,7 @@
         gap: 1vh;
         text-align: center;
     }
+
     .Home .left h1,
     .Home .left h1 span {
         font-size: 100px;
