@@ -124,7 +124,6 @@
 
     .end_home .continer {
         width: 50%;
-
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -583,6 +582,7 @@
         display: flex;
         flex-direction: column;
         line-height: 1;
+        color: var(--text);
     }
 
     .text p {
