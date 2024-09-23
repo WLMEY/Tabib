@@ -821,6 +821,9 @@ left: 30vw;
     cursor: pointer;
 }
 
+
+
+
 .change_text_size {
     font-size: 22px;
     color: var(--body1-color);
